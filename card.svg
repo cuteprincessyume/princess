@@ -1,0 +1,82 @@
+<svg fill="none" viewBox="0 0 400 200" width="400" height="200" xmlns="http://w3.org">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+     <style>
+@font-face {
+font-family: sant joan;
+src: url(https://dl.dropbox.com/s/iwvkrg8ccgd1pf4/SantJoanDespi-Regular.otf);
+}
+@font-face {
+font-family: kitten;
+src: url(https://dl.dropbox.com/s/iu9a60e3nidrio6/KittenSlantTrial.ttf);
+}
+#contain {
+display: block;
+border-width:7px;
+border-style:solid;
+border-image: url("https://i.imgur.com/ROjUrNz.gif") 7 fill round;
+position: relative;
+z-index: 98;
+overflow: hidden;
+height: 16em;
+width: 100%;
+}
+.selfie {
+object-fit: fill;
+position: relative;
+right: 0;
+display: inline;
+z-index: 99;
+height: 100%;
+transition: 1s ease;
+width: 100%;
+}
+#contain:hover .selfie {
+transition: 1s ease;
+width: 95%;
+right: 9em;
+}
+.roman {
+font-family: kitten;
+color: white;
+font-size: 2.5em;
+font-weight: bold;
+text-shadow: -1px 0 #f7b9d5, 0 1px #f7b9d5, 1px 0 #f7b9d5, 0 -1px #f7b9d5, 0 0;
+position: absolute;
+top: .50em;
+right: .1em;
+float: left;
+z-index: 98;
+display: inline-block;
+}
+.aes {
+height: auto;
+width: 125px;
+}
+.numbered {
+position: absolute;
+top: 41%;
+right: 1em;
+text-align: center;
+float: left;
+color: white;
+font-weight: bold;
+text-shadow: -1px 0 #f7b9d5, 0 1px #f7b9d5, 1px 0 #f7b9d5, 0 -1px #f7b9d5, 0 0;
+font-family: sant joan;
+font-size: 2.75em;
+}
+.numbered a {
+color: white;
+transition: .5s ease;
+text-decoration: none !important;
+}
+.numbered a:hover {
+filter: blur(1px);
+color: #FAE6F0;
+transition: .5s ease;
+}
+</style>
+<div id="contain"><img src="https://dl.dropbox.com/s/rnjo153iu75n3qg/Photo%20Nov%2026%2C%209%2006%2048%20AM.jpg" class="selfie"><div class="roman">Name!<br><img src="https://dl.dropbox.com/s/8ggrbsf7kpi7bda/Photo%20Nov%2026%2C%209%2046%2031%20AM.gif" class="aes"></div><div class="numbered"> <a href="#one">01</a> <br> <a href="#two">02</a> <br> <a href="#three">03</a> </div></div> 
+        </div>
+  </foreignObject>
+</svg>
